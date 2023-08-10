@@ -15,10 +15,10 @@ function loadHome() {
     <tr>
       <th scope="row"> ${item.name}</th>
       <td> ${item.price}</td>
-      <td>${item.carCompany}</td>
-      <td>${item.detail}</td>
-     <td><button onclick=\"xoaCar(${item.id})">Delete</button></td>
-     <td><button onclick=\"showFromEdit(${item.id})">Edit</button></td>
+      <td>${item.bikeCompany}</td>
+      <td>${item.status}</td>
+     <td><button type="button" class="btn btn-outline-primary" class="" onclick="xoaCar(${item.id})">Delete</button></td>
+     <td><button type="button" class="btn btn-outline-primary" onclick="showFromEdit(${item.id})">Edit</button></td>
     </tr>
    
   </tbody>

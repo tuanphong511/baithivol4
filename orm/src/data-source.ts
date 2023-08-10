@@ -6,8 +6,8 @@ export const AppDataSource = new DataSource({
     host: "127.0.0.1",
     port: 3306,
     username: "root",
-    password: "123456",
-    database: "serviceCar",
+    password: "phong511",
+    database: "quanly_xe",
     synchronize: false,
     entities: ["dist/src/entity/*.js"]
 })
